@@ -1,6 +1,9 @@
-package domain;
+package infrastructure;
 
 import java.util.List;
+
+import domain.IRoomRepo;
+import domain.Room;
 
 public class RoomRepoImpl implements IRoomRepo<Room> {
 

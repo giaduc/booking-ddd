@@ -1,6 +1,9 @@
-package domain;
+package infrastructure;
 
 import java.util.List;
+
+import domain.Booking;
+import domain.IBookingRepo;
 
 public class BookingRepoImpl implements IBookingRepo<Booking> {
 

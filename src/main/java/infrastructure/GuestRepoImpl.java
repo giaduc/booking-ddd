@@ -1,6 +1,9 @@
-package domain;
+package infrastructure;
 
 import java.util.List;
+
+import domain.Guest;
+import domain.IGuestRepo;
 
 public class GuestRepoImpl implements IGuestRepo<Guest> {
 
